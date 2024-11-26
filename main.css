@@ -11,7 +11,7 @@ body {
 
 nav {
     display: flex;
-    align-items: center !;
+    align-items: center;
     margin: auto;
     margin-bottom: 20px !important;
     margin-top: 20px !important;
@@ -31,6 +31,24 @@ nav {
     border-radius: 0.25rem !important;
     width: 250px;
 }
+
+.contact-btn {
+    background-color: rgba(255, 255, 255, 0.39) !important;
+    padding: 8px;
+    margin-right: 10px;
+    margin-top: 10px;
+    color: #333;
+    width: auto;
+    font-weight: bolder;
+    border-radius: 4px !important;
+}
+.contact-icons {
+    width: 100% !important;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: fit-content;
+}
+
 
 .card-btn {
     background-color: rgba(255, 255, 255, 0.39) !important;
@@ -92,7 +110,15 @@ nav {
 }
 
 .agent-details {
-    margin-left: 5px;
+    margin-left: -95px;
+}
+
+.agent-name {
+    font-weight: bolder;
+    font-size: 30px;
+}
+.agent-title {
+    font-weight: bold;
 }
 
 @media only screen and (max-width: 600px) {
@@ -104,18 +130,31 @@ nav {
         padding: 20px;
     }
 
+    .contact-icons {
+        width: 100% !important;
+        padding-left: 2.5px;
+        padding-right: 2.5px;
+        height: fit-content;
+    }
+
     .card-c-text {
         font-size: 10px !important;
     }
 
     .card-img-top {
-        width: 120px !important;
+        width: 95px !important;
         height: auto;
         display: flex;
         margin-left: 0px;
     }
         .agent-details {
-            margin-left: 10px;
+            width: auto !important;
+        }
+        .agent-name {
+            font-size: 20px !important;
+        }
+        .agent-title {
+            font-size: 12px !important;
         }
 
     .row {
@@ -144,14 +183,15 @@ nav {
         z-index: -1;
     }
 }
-
 .row {
     width: 110% !important;
     margin-top: 1px !important;
-    margin-left: -20px;
+    margin-left: -18px;
     margin-right: -20px !important;
 }
-
 .w-10 {
     width: 150px !important;
+}
+.flex-container {
+    display: flex;
 }
