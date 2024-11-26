@@ -42,6 +42,7 @@ nav {
     font-weight: bolder;
     border-radius: 4px !important;
 }
+
 .contact-icons {
     width: 100% !important;
     padding-left: 5px;
@@ -117,11 +118,12 @@ nav {
     font-weight: bolder;
     font-size: 30px;
 }
+
 .agent-title {
     font-weight: bold;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 900px) {
     .card {
         margin-top: 10px !important;
         margin: auto;
@@ -130,10 +132,21 @@ nav {
         padding: 20px;
     }
 
+    .contact-btn {
+        background-color: rgba(255, 255, 255, 0.39) !important;
+        padding: 8px;
+        margin-right: 10px;
+        margin-top: 10px;
+        color: #333;
+        width: auto;
+        font-weight: bolder;
+        font-size: 15px;
+        border-radius: 4px !important;
+    }
     .contact-icons {
         width: 100% !important;
-        padding-left: 2.5px;
-        padding-right: 2.5px;
+        padding-left: 3px;
+        padding-right: 3px;
         height: fit-content;
     }
 
@@ -147,15 +160,30 @@ nav {
         display: flex;
         margin-left: 0px;
     }
-        .agent-details {
-            width: auto !important;
-        }
-        .agent-name {
-            font-size: 20px !important;
-        }
-        .agent-title {
-            font-size: 12px !important;
-        }
+
+    .card-btn {
+        background-color: rgba(255, 255, 255, 0.39) !important;
+        text-decoration: none;
+        padding: 8px;
+        margin-right: 10px;
+        margin-top: 10px;
+        color: #333;
+        font-size: 15px;
+        font-weight: bolder;
+        border-radius: 4px !important;
+    }
+
+    .agent-details {
+        width: auto !important;
+    }
+
+    .agent-name {
+        font-size: 20px !important;
+    }
+
+    .agent-title {
+        font-size: 12px !important;
+    }
 
     .row {
         width: 100% !important;
@@ -183,15 +211,18 @@ nav {
         z-index: -1;
     }
 }
+
 .row {
     width: 110% !important;
     margin-top: 1px !important;
     margin-left: -18px;
     margin-right: -20px !important;
 }
+
 .w-10 {
     width: 150px !important;
 }
+
 .flex-container {
     display: flex;
 }
