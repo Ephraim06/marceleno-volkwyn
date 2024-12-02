@@ -100,8 +100,9 @@ nav {
 }
 
 .card-icon {
-    color: rgb(103, 103, 103);
-    font-size: large;
+    color: rgb(65, 64, 64);
+    font-size: 1.5rem;
+
 }
 
 .card-img-top {
@@ -128,6 +129,9 @@ nav {
     text-decoration: none;
 }
 
+.listing-card {
+width: 100% !important;}
+
 @media only screen and (max-width: 600px) {
 
     nav {
@@ -143,7 +147,7 @@ nav {
     }
     .card-icon {
         color: rgb(103, 103, 103);
-        font-size: x-small;
+        font-size:medium;
     }
 
     .contact-btn {
@@ -262,4 +266,8 @@ nav {
 
 .flex-container {
     display: flex;
+}
+
+.social-icons {
+    text-decoration: none !important;
 }
